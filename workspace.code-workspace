@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Responsive menu"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Responsive menu"
+	}
+}
