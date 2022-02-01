@@ -82,6 +82,46 @@ section{
     padding: 1rem 0;
 }
 
+.about{
+    background: url("./img/about-bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .column .content{
+    flex: 1 1 40rem;
+}
+
+.about .column .image{
+    flex: 1 1 40rem;
+}
+
+.about .column .image img{
+    width: 100%;
+}
+
+.about .column .content h3{
+    font-size: 3rem;
+    color: #666;
+}
+
+.about .column .content p{
+    font-size: 1.5rem;
+    color: #666;
+    pad: 1rem 0;
+}
+
+.about .column .content .buttons a:last-child{
+    margin-left: 2rem;
+}
+
 .btn:hover{
     transform: scale(1.1);
 }
@@ -253,5 +293,14 @@ header label{
     }
     .home .image p{
         font-size: 1.5rem;
+    }
+    .home .content h3{
+        font-size: 3.6rem;
+    }
+    .home .content p{
+        font-size: 1.5rem;
+    }
+    .about{
+        background-position: right;
     }
 }
